@@ -1,7 +1,7 @@
 from typing import Union
 
 
-def sum_of_two_nums(first_number: Union[int, float], second_number: Union[int, float]):
+def sum_of_two_nums(first_number: int|float, second_number: int|float):
     """Функция для вычисления суммы двух чисел"""
     print(first_number + second_number)
 
