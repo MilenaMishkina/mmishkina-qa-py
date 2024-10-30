@@ -27,4 +27,4 @@ login_button.click()
 
 logout_button = driver.find_element('xpath', logout_button_locator)
 page_source = driver.page_source
-assert logout_button not in page_source, 'Элемент найден на странице'
+assert login_button not in page_source, 'Элемент найден на странице'
