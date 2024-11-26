@@ -58,5 +58,6 @@ for cookie in cookies:
     driver.add_cookie(cookie)
 assert all_cookies == cookies
 
+wait.until(EC.visibility_of_element_located(DELETE_BUTTON), 'Элемент не найден на странице')
 
 
