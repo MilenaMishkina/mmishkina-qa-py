@@ -2,3 +2,4 @@ selenium~=4.26.1
 requests~=2.32.3
 pyodbc~=5.2.0
 webdriver-manager~=4.0.2
+pytest~=8.3.4
